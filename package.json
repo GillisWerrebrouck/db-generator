@@ -1,0 +1,11 @@
+{
+  "name": "db_generator",
+  "version": "1.0.0",
+  "description": "A script to generate and populate the database.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Gillis Werrebrouck",
+  "license": "ISC"
+}
