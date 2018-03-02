@@ -44,7 +44,8 @@ prompt.get(promptSchema, (err, result) => {
         case "y":
             let client;
             
-            connect().then((c) => client = c)
+            connect()
+                .then((c) => client = c)
                 .then(() => clearTable(clear ? "user" : ""))
                 .then(() => clearTable(clear ? "address" : ""))
                 .then(() => {
